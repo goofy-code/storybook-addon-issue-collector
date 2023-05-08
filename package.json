@@ -1,5 +1,5 @@
 {
-  "name": "@goofy-code/storybook-addon-issue-collector",
+  "name": "@pateta/storybook-addon-issue-collector",
   "version": "0.1.1",
   "description": "A Storybook addon for collecting issues.",
   "main": "dist/preset.js",
@@ -38,5 +38,13 @@
     "@storybook/testing-library": "^0.0.14-next.2",
     "prop-types": "^15.8.1",
     "storybook": "^7.0.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goofy-code/storybook-addon-issue-collector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/goofy-code/storybook-addon-issue-collector/issues"
+  },
+  "homepage": "https://github.com/goofy-code/storybook-addon-issue-collector#readme"
 }
