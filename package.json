@@ -1,6 +1,6 @@
 {
   "name": "@pateta/storybook-addon-issue-collector",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A Storybook addon for collecting issues.",
   "main": "dist/preset.js",
   "files": [
