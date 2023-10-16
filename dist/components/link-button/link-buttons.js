@@ -8,7 +8,7 @@ var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 // import './link-buttons.scss';
 
-var LinkButton = function LinkButton(_ref) {
+var LinkButton = exports.LinkButton = function LinkButton(_ref) {
   var href = _ref.href,
     target = _ref.target,
     label = _ref.label;
@@ -32,4 +32,3 @@ var LinkButton = function LinkButton(_ref) {
     href: href
   }, label);
 };
-exports.LinkButton = LinkButton;

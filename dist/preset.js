@@ -14,7 +14,6 @@ function managerEntries() {
   var entry = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
   return [].concat(_toConsumableArray(entry), [require.resolve('./manager')]);
 }
-var _default = {
+var _default = exports["default"] = {
   managerEntries: managerEntries
 };
-exports["default"] = _default;

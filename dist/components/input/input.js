@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.Input = void 0;
 var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
-var Input = function Input(_ref) {
+var Input = exports.Input = function Input(_ref) {
   var label = _ref.label,
     value = _ref.value,
     options = _ref.options,
@@ -32,4 +32,3 @@ var Input = function Input(_ref) {
     onChange: onChange
   }));
 };
-exports.Input = Input;

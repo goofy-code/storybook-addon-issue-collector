@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.Select = void 0;
 var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
-var Select = function Select(_ref) {
+var Select = exports.Select = function Select(_ref) {
   var label = _ref.label,
     value = _ref.value,
     options = _ref.options,
@@ -41,4 +41,3 @@ var Select = function Select(_ref) {
     }, option.label);
   })));
 };
-exports.Select = Select;
