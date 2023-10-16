@@ -120,8 +120,8 @@ addons.register(ADDON_ID, (api) => {
     addons.add(PANEL_ID, {
         type: types.PANEL,
         title: 'Create Issue',
-        render: ({ active, key }) => (
-            <AddonPanel active={active} key={key}>
+        render: (props) => (
+            <AddonPanel {...props}>
                 <MyPanel />
             </AddonPanel>
         ),
